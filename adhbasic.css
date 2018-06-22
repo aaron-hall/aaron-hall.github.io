@@ -1,0 +1,174 @@
+body {
+   margin-left: 5%;
+   margin-right: 5%;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+   font-weight: bold;
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+   color: #060;
+   background-color: transparent;
+   padding-left: 0.5em;
+   margin-left: -2%;
+}
+h1 {
+   font-size: 130%;
+   border: 1px solid #363;
+   background-color: #efe;
+}
+h2 {
+   font-size: 120%;
+   border-left: 0.6em solid #363;
+   border-bottom: 2px solid #363;
+}
+h3 {
+   font-size: 110%;
+   border-left: 0.6em solid #363;
+}
+h4 {
+   font-size: 100%;
+   border-left: 0.3em solid #696;
+}
+h5 {
+   font-size: 100%;
+   border-left: 2px solid #696;
+}
+h6 {
+   font-size: 100%;
+   border-left: 2px dotted #696;
+}
+
+dt {
+   font-family: sans-serif;
+   font-weight: bold;
+}
+dd {
+   font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #ac9;
+  font: normal small verdana, arial, helvetica, sans-serif;
+  margin: 0.5em;
+}
+th {
+  font: normal georgia, verdana, arial, helvetica, sans-serif;
+  border: transparent;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  background: #ac9;
+  padding: 0.3em;
+}
+td {
+    //color: #636363;
+    //border: 1px solid #ac9;
+    border-left: 1px solid #ac9;
+    border-right: 1px solid #ac9;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0.3em;
+    vertical-align: top;
+}
+
+img {
+   margin: 2px;
+   border: 1px solid #ddd;
+   padding: 2px;
+}
+
+/* tone it down a little (but not much more than this, or no blue/purple distinction */
+a:link {
+    color: #00b;
+}
+a:visited {
+    color: #6000bb;
+}
+
+.code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/*** CAPTIONED PICTURE BOX ******************************/
+/* needs work */
+/*
+.capic {
+   display: inline;
+   margin: 5px;
+   padding: 0;
+   border: 1px solid red;
+}
+.capic img {
+   margin: 3px;
+   padding: 0;
+   border: 1px solid blue;
+}
+.capic p.caption {
+   float: none;
+   text-align: center;
+   font-style: italic;
+   border: 1px solid green;
+}
+.picborder {
+   border: 3px solid #50436c;
+}
+*/
+
+/*** DENSE DL *******************************/
+/* needs work */
+dl.dense {
+   float: left;
+   margin: 1em 0;
+   padding: 0;
+}
+.dense dt {
+   clear: left;
+   float: left;
+   margin: 0;
+   padding: 5px;
+}
+.dense dd {
+   float: left;
+   margin: 0;
+   padding: 5px;
+}
+
+/* TABLE-BASED DENSE (LATEX-STYLE) DESCRIPTION LIST ***/
+table.desc {
+   border: none;
+   font: normal none sans-serif;
+}
+table.desc th {
+   font: normal none sans-serif;
+   border: none;
+   background: #fee;
+   vertical-align: top;
+}
+table.desc td {
+   background: #efe;
+   border: none;
+   vertical-align: top;
+}
+
+/* unlined table (to be used like eqnarray) */
+table.unlined {
+   border: 0;
+}
+table.unlined td {
+   border: 0;
+}
+
+blockquote.recall {
+    background-color: #f4fbf4;
+    border-left: 2px solid #9c9;
+    border-right: 2px solid #9c9;
+    font-size: smaller;
+    padding: 1em;
+    margin: 1em;
+}
+blockquote.recall .per {
+    font-style: italic;
+    font-weight: bold;
+    background-color: transparent;
+}
